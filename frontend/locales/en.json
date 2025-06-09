@@ -1,0 +1,10 @@
+{
+  "title": "Online Shop",
+  "product": {
+    "add_to_cart": "Add to Cart"
+  },
+  "cart": {
+    "checkout": "Checkout",
+    "total": "Total"
+  }
+}
