@@ -20,11 +20,17 @@ Dieses Projekt stellt einen einfachen Onlineshop mit Bitcoin-Zahlung dar. Es bas
    ```
 5. Die Anwendung ist unter `http://localhost:3000` erreichbar.
 
+
+Nach der Installation kann mit `npm test` überprüft werden, ob alles korrekt
+funktioniert. Dieses Projekt enthält nur einen einfachen Beispieltest, der sich
+bei Bedarf erweitern lässt.
+
 3. Um den Server zu starten:
    ```bash
    npm start
    ```
 4. Die Anwendung ist unter `http://localhost:3000` erreichbar.
+
 
 
 ## Docker

@@ -16,6 +16,7 @@
     "jsonwebtoken": "^9.0.0"
 
 
+
     "start": "node backend/index.js"
   },
   "dependencies": {
@@ -24,6 +25,7 @@
     "jsonwebtoken": "^9.0.0",
     "i18n": "^0.15.1",
     "bitcoinjs-lib": "^6.1.0"
+
 
 
   }
