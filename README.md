@@ -27,6 +27,7 @@ docker-compose up --build
 
 Die Übersetzungen befinden sich im Ordner `frontend/locales`. Standardmäßig sind Deutsch und Englisch verfügbar.
 
+
 ## Tests
 
 Zum Ausführen der Tests:
@@ -37,3 +38,5 @@ npm test
 ## Umgebungsvariablen
 
 Kopiere die Datei `.env.example` zu `.env` und passe die Werte bei Bedarf an.
+
+
