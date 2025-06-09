@@ -10,6 +10,10 @@ Dieses Projekt stellt einen einfachen Onlineshop mit Bitcoin-Zahlung dar. Es bas
    npm install
    ```
 
+Nach der Installation kann mit `npm test` überprüft werden, ob alles korrekt
+funktioniert. Dieses Projekt enthält nur einen einfachen Beispieltest, der sich
+bei Bedarf erweitern lässt.
+
 3. Beispiel-Umgebung kopieren und anpassen:
    ```bash
    cp .env.example .env
