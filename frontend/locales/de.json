@@ -1,0 +1,10 @@
+{
+  "title": "Onlineshop",
+  "product": {
+    "add_to_cart": "In den Warenkorb"
+  },
+  "cart": {
+    "checkout": "Zur Kasse",
+    "total": "Gesamt"
+  }
+}
