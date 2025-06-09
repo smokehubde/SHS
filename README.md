@@ -9,11 +9,23 @@ Dieses Projekt stellt einen einfachen Onlineshop mit Bitcoin-Zahlung dar. Es bas
    ```bash
    npm install
    ```
+
+3. Beispiel-Umgebung kopieren und anpassen:
+   ```bash
+   cp .env.example .env
+   ```
+4. Um den Server zu starten:
+   ```bash
+   npm start
+   ```
+5. Die Anwendung ist unter `http://localhost:3000` erreichbar.
+
 3. Um den Server zu starten:
    ```bash
    npm start
    ```
 4. Die Anwendung ist unter `http://localhost:3000` erreichbar.
+
 
 ## Docker
 
@@ -38,5 +50,4 @@ npm test
 ## Umgebungsvariablen
 
 Kopiere die Datei `.env.example` zu `.env` und passe die Werte bei Bedarf an.
-
 
