@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const i18n = require('i18n');
+const path = require('path');
 const app = express();
 
 // i18n configuration
@@ -14,6 +15,7 @@ i18n.configure({
 
 app.use(i18n.init);
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, '../frontend')));
 
 const productRoutes = require('./routes/products');
 const cartRoutes = require('./routes/cart');
